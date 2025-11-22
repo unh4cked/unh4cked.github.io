@@ -3,60 +3,308 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Amirabbas Rafiei — Python Developer</title>
-    <meta name="description" content="Python Developer — Web Scraping, Telegram Bots, FastAPI" />
+    <title>Amirabbas Rafiei — Python Developer, API Development & Automation Expert</title>
+    <meta name="description" content="Professional Python Developer specializing in API Development, Web Scraping, Telegram Bots, FastAPI & Automation. 5+ years of experience." />
+    <meta name="keywords" content="Python Developer, API Development, FastAPI, Web Scraping, Telegram Bots, Automation, Backend Development" />
+    <meta name="author" content="Amirabbas Rafiei" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="container">
-      <nav class="nav">
-        <div class="brand">unh4cked</div>
-        <div class="links">
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="brand-wrapper">
+          <img src="images/logo.png" alt="Logo" class="logo-icon">
+          <span class="brand">unh4cked</span>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#advantages">مزیت‌ها</a>
+          <a href="#about">درباره من</a>
+          <a href="#skills">مهارت‌ها</a>
+          <a href="#faq">سوالات</a>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="hero container" id="hero">
-        <h1>Amirabbas Rafiei <span class="muted">| امیرعباس رفیعی</span></h1>
-        <p>Python Developer — Web Scraping • Telegram Bots • FastAPI • ML Enthusiast</p>
-        <div class="cta">
-          <a class="btn" href="https://github.com/unh4cked" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="btn secondary" href="mailto:ow3ami00@gmail.com">Email</a>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1 class="hero-title">Amirabbas Rafiei</h1>
+              <p class="hero-subtitle">امیرعباس رفیعی</p>
+              <p class="hero-desc">متخصص توسعه‌دهنده Python | Web Scraping • Telegram Bots • FastAPI • Automation</p>
+              <p class="hero-tagline">راه‌حل‌های خودکار و قابل اعتماد برای کسب‌وکار شما</p>
+              <div class="hero-cta">
+                <a href="https://github.com/unh4cked" target="_blank" class="btn btn-primary">GitHub Profile</a>
+                <a href="https://t.me/unh4cked" target="_blank" class="btn btn-secondary">Telegram</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <div class="image-wrapper">
+                <img src="images/me.jpg" alt="Amirabbas Rafiei" class="profile-img">
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="container" id="skills">
-        <h2>Skills</h2>
-        <ul class="badges">
-          <li>Python</li><li>Asyncio</li><li>httpx</li><li>BS4</li><li>lxml</li>
-          <li>Scrapy</li><li>Playwright</li><li>Selenium</li><li>Pandas</li>
-          <li>FastAPI</li><li>SQLite</li><li>PostgreSQL</li><li>Docker</li>
-          <li>Git/GitHub</li><li>Linux</li><li>Telegram Bot API</li>
-        </ul>
+      <!-- Advantages Section (Auto Slider) -->
+      <section class="advantages" id="advantages">
+        <div class="container">
+          <h2 class="section-title">چرا با من کار کنید؟</h2>
+          <div class="advantages-slider">
+            <div class="advantage-card">
+              <div class="advantage-icon">⚡</div>
+              <h3>عملکرد بهینه</h3>
+              <p>کدهای بهینه‌شده که حتی در شرایط بار بالا بدون مشکل کار می‌کند. استفاده از async programming و caching برای سرعت بیشتر.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-icon">🎯</div>
+              <h3>قابلیت اعتماد</h3>
+              <p>سیستم‌های تست‌شده و پایدار که ۲۴/۷ بدون خرابی کار می‌کند. error handling و logging جامع برای ردیابی مشکلات.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-icon">🔧</div>
+              <h3>سفارشی‌سازی کامل</h3>
+              <p>هر پروژه براساس نیاز دقیق شما طراحی می‌شود. بدون قالب‌های تکراری، فقط راه‌حل‌های منحصربه‌فرد.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-icon">📱</div>
+              <h3>پشتیبانی مستمر</h3>
+              <p>۳ ماه پشتیبانی رایگان و پشتیبانی پرداختی بعد از آن. پاسخ سریع به مشکلات و بهبود مستمر سیستم.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-icon">🔐</div>
+              <h3>امنیت صنعتی</h3>
+              <p>کدهای ایمن با رعایت best practices. محافظت از SQL injection، CSRF و سایر آسیب‌پذیری‌های رایج.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-icon">📈</div>
+              <h3>مقیاس‌پذیری</h3>
+              <p>سیستم‌های طراحی‌شده برای رشد. از ۱۰ تا ۱۰۰۰۰ درخواست در ثانیه، بدون نیاز به بازنویسی.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="container" id="projects">
-        <h2>Projects</h2>
-        <p>Projects will be published here soon. For code samples or demos, contact me via Email or Telegram.</p>
+
+      <!-- About Section -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="about-left">
+              <h2 class="section-title">درباره من</h2>
+              <div class="about-text">
+                <p><strong>امیرعباس رفیعی</strong> — متخصص توسعه‌دهنده نرم‌افزار با تمرکز بر Python و خودکارسازی سیستم‌های پیچیده.</p>
+                <p>با <strong>۵+ سال تجربه</strong> در صنعت، من در طراحی و پیاده‌سازی راه‌حل‌های مقیاس‌پذیر و قابل اعتماد متخصص هستم. تخصص من شامل:</p>
+                <ul class="about-list">
+                  <li><strong>Web Scraping پیشرفته</strong> — استخراج داده‌های بزرگ‌مقیاس با Scrapy، BeautifulSoup و Playwright</li>
+                  <li><strong>توسعه Telegram Bots</strong> — بات‌های هوشمند و تعاملی با aiogram و pyrogram</li>
+                  <li><strong>API Development</strong> — سرویس‌های RESTful سریع و ایمن با FastAPI</li>
+                  <li><strong>خودکارسازی و DevOps</strong> — پیاده‌سازی سیستم‌های خودکار با Docker و Linux</li>
+                </ul>
+                <p>من به ایجاد <strong>کدهای تمیز، قابل نگهداری و ایمن</strong> اعتقاد دارم که بدون نیاز به دخالت مستمر کار می‌کند.</p>
+              </div>
+              <div class="about-stats">
+                <div class="stat-card">
+                  <div class="stat-icon">🚀</div>
+                  <div class="stat-number">35+</div>
+                  <div class="stat-label">پروژه انجام‌شده</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-icon">⭐</div>
+                  <div class="stat-number">5+</div>
+                  <div class="stat-label">سال تجربه</div>
+                </div>
+              </div>
+            </div>
+            <div class="about-right">
+              <div class="about-image">
+                <img src="images/me.jpg" alt="Amirabbas Rafiei" class="about-img">
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="container" id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:ow3ami00@gmail.com">ow3ami00@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/unh4cked" target="_blank" rel="noreferrer">@unh4cked</a></p>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="section-title">مهارت‌ها و تکنولوژی‌ها</h2>
+          
+          <!-- Backend Skills -->
+          <div class="skills-group">
+            <h3 class="skills-group-title">Backend Development</h3>
+            <p class="skills-group-desc">Python • API Development • Web Scraping • Telegram Bots • Async Programming • Database Design</p>
+            <div class="skill-domains">
+              <div class="skill-domain">
+                <h4>🗣️ Language</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Python</span>
+                </div>
+              </div>
+              <div class="skill-domain">
+                <h4>🌐 Web Scraping</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Scrapy</span>
+                  <span class="skill-tag">BeautifulSoup</span>
+                  <span class="skill-tag">Selenium</span>
+                  <span class="skill-tag">Playwright</span>
+                </div>
+              </div>
+              <div class="skill-domain">
+                <h4>🤖 Telegram Bots</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">aiogram</span>
+                  <span class="skill-tag">pyrogram</span>
+                  <span class="skill-tag">python-telegram-bot</span>
+                </div>
+              </div>
+              <div class="skill-domain">
+                <h4>⚙️ API Development</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">FastAPI</span>
+                  <span class="skill-tag">RESTful APIs</span>
+                  <span class="skill-tag">API Design</span>
+                  <span class="skill-tag">aiohttp</span>
+                </div>
+              </div>
+              <div class="skill-domain">
+                <h4>🔌 Integration</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Third-party APIs</span>
+                  <span class="skill-tag">Webhooks</span>
+                  <span class="skill-tag">Async/Await</span>
+                  <span class="skill-tag">Microservices</span>
+                </div>
+              </div>
+              <div class="skill-domain">
+                <h4>💾 Database</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">PostgreSQL</span>
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">Redis</span>
+                </div>
+              </div>
+              <div class="skill-domain">
+                <h4>🐳 DevOps</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Docker</span>
+                  <span class="skill-tag">Linux</span>
+                  <span class="skill-tag">Git</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frontend Skills -->
+          <div class="skills-group">
+            <h3 class="skills-group-title">Frontend Development</h3>
+            <p class="skills-group-desc">توسعه رابط‌های کاربری مدرن و responsive با HTML و CSS</p>
+            <div class="skill-domains">
+              <div class="skill-domain">
+                <h4>🎨 HTML & CSS</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">Responsive Design</span>
+                  <span class="skill-tag">Flexbox</span>
+                  <span class="skill-tag">Grid</span>
+                  <span class="skill-tag">Animations</span>
+                </div>
+              </div>
+              <div class="skill-domain">
+                <h4>🚀 Tools & Practices</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">SEO Optimization</span>
+                  <span class="skill-tag">Performance</span>
+                  <span class="skill-tag">Web Standards</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+
+      <!-- FAQ Section -->
+      <section class="faq" id="faq">
+        <div class="container">
+          <h2 class="section-title">سوالات متداول</h2>
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h3>🕐 زمان تحویل پروژه چقدر است؟</h3>
+              <p>بسته به پیچیدگی و حجم پروژه متفاوت است. معمولاً:</p>
+              <ul class="faq-list">
+                <li>پروژه‌های کوچک (۱-۲ هفته): ۵-۱۰ روز</li>
+                <li>پروژه‌های متوسط (۲-۴ هفته): ۲-۴ هفته</li>
+                <li>پروژه‌های بزرگ: بر اساس توافق</li>
+              </ul>
+              <p>برای هر پروژه یک زمان‌بندی دقیق و milestone‌های واضح ارائه می‌دهم.</p>
+            </div>
+            <div class="faq-item">
+              <h3>🛡️ پشتیبانی بعد از تحویل چگونه است؟</h3>
+              <p><strong>۳ ماه پشتیبانی رایگان</strong> شامل:</p>
+              <ul class="faq-list">
+                <li>رفع bug‌های احتمالی</li>
+                <li>بهبود عملکرد</li>
+                <li>پاسخ سریع به سوالات</li>
+              </ul>
+              <p>بعد از آن، پشتیبانی پرداختی در دسترس است.</p>
+            </div>
+            <div class="faq-item">
+              <h3>💰 قیمت‌گذاری چگونه انجام می‌شود؟</h3>
+              <p>قیمت بر اساس:</p>
+              <ul class="faq-list">
+                <li>پیچیدگی فنی پروژه</li>
+                <li>حجم کار و زمان لازم</li>
+                <li>نیاز‌های خاص شما</li>
+              </ul>
+              <p>برای هر پروژه یک برآورد دقیق و شفاف ارائه می‌دهم. بدون هزینه‌های پنهان.</p>
+            </div>
+            <div class="faq-item">
+              <h3>🔄 آیا می‌توانید با پروژه‌های موجود کار کنید؟</h3>
+              <p>بله! من می‌توانم:</p>
+              <ul class="faq-list">
+                <li>پروژه‌های موجود را بهبود بخشم</li>
+                <li>Bug‌ها را شناسایی و رفع کنم</li>
+                <li>ویژگی‌های جدید اضافه کنم</li>
+                <li>کد را refactor و بهینه کنم</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
-    <footer class="container footer">
-      <small>© <span id="year"></span> Amirabbas Rafiei — "Automate the boring stuff. Ship reliable scrapers and useful bots."</small>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>© <span id="year"></span> Amirabbas Rafiei — "Automate the boring stuff. Ship reliable solutions."</p>
+          <div class="footer-links">
+            <a href="https://github.com/unh4cked" target="_blank" title="GitHub">GitHub</a>
+            <a href="https://t.me/unh4cked" target="_blank" title="Telegram">Telegram</a>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
 
     <script src="script.js"></script>
   </body>
