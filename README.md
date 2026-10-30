@@ -1,9 +1,25 @@
-# unh4cked.github.io — Portfolio
+# unh4cked.github.io — Portfolio (پروفایل شخصی)
 
-Personal portfolio website for Amirabbas Rafiei (امیرعباس رفیعی).
+وب‌سایت پروفایل شخصی امیرعباس رفیعی (Amirabbas Rafiei).
 
-- Dark, modern, responsive.
-- Sections: Hero, Skills, Projects, Contact.
-- Ready for GitHub Pages (no build step).
+## بخش‌ها
+- **Hero** — معرفی، وضعیت شغلی و دکمه‌های ارتباطی
+- **مزیت‌ها** — چرا کار با من
+- **درباره من** — سوابق و آمار
+- **مهارت‌ها** — تکنولوژی‌ها در دامنه‌های مختلف
+- **سوالات متداول**
+- **تماس** — تلگرام و گیت‌هاب
 
-Open `https://unh4cked.github.io` after a few minutes once Pages is active.
+## ویژگی‌ها
+- طراحی تاریک، مدرن و مینیمال (الهام از سبک GitHub)
+- کاملاً Responsive (موبایل تا دسکتاپ)
+- پشتیبانی کامل از RTL فارسی + فونت وزیرمتن
+- دسترس‌پذیری: skip link، focus ring، منوی قابل کنترل با کیبورد، `prefers-reduced-motion`
+- سئو: Open Graph، Twitter Card، canonical و JSON-LD
+- بدون مراحل بیلد — آماده انتشار روی GitHub Pages
+
+## اجرای محلی
+```
+python -m http.server 8000
+```
+سپس `http://localhost:8000` را باز کنید.
